@@ -1,0 +1,88 @@
+.head {
+    border: 3px solid black;
+    border-bottom: 0px;
+    width: 800px;
+    height: 70px;
+    background-color: #99C4C8;
+}
+body {
+    background-color: beige;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.task {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+h1 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 15px;
+}
+h2{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 16px;
+    font-size: large;
+}
+.message {
+    display: flex;
+}
+.profile {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 19px;
+    margin-left: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    background-color: #E5CB9F;
+}
+.profile-text {
+    margin-left: 9px;
+    margin-top: 11px;
+}
+.time {
+    margin-left: 18px;
+    margin-top: 21px;
+}
+.chatbox {
+    border: 2px solid black;
+    width: 470px;
+    height: fit-content;
+    background-color: #c2b091;
+}
+.main-inner {
+    display: flex;
+}
+.name {
+    margin-bottom: 1px;
+    padding: 1px;
+    margin-top: 0px;
+}
+.chat {
+    margin-left: 100px;
+}
+.main{
+    height: 530px;
+    width: 800px;
+    border: 3px solid black;
+    overflow-y: scroll;
+    background-color: #68A7AD;
+
+}
+.main::-webkit-scrollbar{
+    background:#68A7AD;
+    width: 5px;
+    height: 5px;
+}
+.main::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+.main::-webkit-scrollbar-thumb{
+    background: #22577E;
+}
+.msg {
+    margin: 8px 0px;
+    margin-left: 5px;
+}
